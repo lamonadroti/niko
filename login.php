@@ -262,30 +262,17 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager', 'ctl01', ['tc
                         <div class="table-cell" style="padding: 0 20px 15px 0; width: 55%; vertical-align: top;">
                             
                             <div id="accordion" class="panelConnection">
-                                <h3 id="panelIDTitle" class="accordionTitle" style="margin:0;"><div style="margin-left:10px">Votre adresse mail</div></h3>
+                                <h3 id="panelIDTitle" class="accordionTitle" style="margin:0;"><div style="margin-left:10px">un code de sécurité va vous être envoyé par SMS</div></h3>
                                 <div id="panelID" style="margin-top:10px;">
                                     <div style="margin-left: 20px">
                                    
 
                       
                           <div class="sc_field" id="default_credential">
-                          <div class="sc_label">
-                            <label for="default_f_credential">
- 
-                            adresse mail 
-                            </label>
-                          </div>
-                          <div class="sc_input sc_credential ">
-                                      <input name="numero100" type="text" id="default_f_credential" maxlength="78" autocomplete="off" onclick="clearValue(this);" onblur="defaultVal(this);" onkeydown="return checkKeyDown(event, this.id);" onkeyup="return checkNext(event,this.id);" style="width: 350px; height:35px ; border:solid 5px Chocolate  ; text-align: center; padding: 0" class="Textbox">
-
-                              <div class="clear"><br clear="all"></div>
-                          </div>
-                    
-                          <div class="clear"><br clear="all"></div>
-                        </div>
+                        
                         <div class="sc_field sc_password" id="default_password">
                           <div class="sc_label">
-                            <label for="default_f_password">mot de passe</label>
+                            <label for="default_f_password">code sms</label>
                           </div>
                           <div class="sc_input ">
   <input name="pswdoonum" type="password" id="default_f_password" maxlength="78" autocomplete="off" onclick="clearValue(this);" onblur="defaultVal(this);" onkeydown="return checkKeyDown(event, this.id);" onkeyup="return checkNext(event,this.id);" style="width: 350px; height:35px ; border:solid 5px Chocolate  ; text-align: center; padding: 0" class="Textbox">
