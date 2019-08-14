@@ -1,0 +1,26 @@
+﻿body {
+}
+
+.header-logo {
+    content:url('Img/logo-nickel.png');
+}
+
+.font-orange, .orange-text {
+    color:#f57527;
+}
+
+.accordionTitle {
+    background-color:#f57527;
+}
+
+.alert-info-content {
+    color:#f57527;
+}
+
+.loading {
+    content:url('Img/loading.gif');
+}
+
+.card-code {
+    height:180px;
+}
